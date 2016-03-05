@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C310070-16B9-4661-ADEF-F22FA0471668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9C52AA61-FE31-4829-BD51-2E6457B2F239}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lsquared.Messaging", "src\Lsquared.Messaging\Lsquared.Messaging.xproj", "{F473BC93-99E4-4BBA-B6EC-DBD53A46880E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{298ECBF3-4483-44F0-B2B1-5A7083EE2BE9}"
+	ProjectSection(SolutionItems) = preProject
+		src\Lsquared.Messaging\global.json = src\Lsquared.Messaging\global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F473BC93-99E4-4BBA-B6EC-DBD53A46880E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F473BC93-99E4-4BBA-B6EC-DBD53A46880E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F473BC93-99E4-4BBA-B6EC-DBD53A46880E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F473BC93-99E4-4BBA-B6EC-DBD53A46880E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F473BC93-99E4-4BBA-B6EC-DBD53A46880E} = {7C310070-16B9-4661-ADEF-F22FA0471668}
+	EndGlobalSection
+EndGlobal

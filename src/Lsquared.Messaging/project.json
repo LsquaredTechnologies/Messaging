@@ -1,0 +1,51 @@
+﻿{
+    "compilationOptions": {
+        "nowarn": [
+            "CS1591"
+        ],
+        "warningsAsErrors": true,
+        "xmlDoc": true
+    },
+    "compile": "../../Common/*.cs",
+    "dependencies": {
+    },
+    "description": "Messaging framework for .Net",
+    "frameworks": {
+        ".NETFramework, Version=v4.5.1 ": {
+            "dependencies": {
+                "Microsoft.Bcl.Async": "1.0.168"
+            },
+            "frameworkAssemblies": {
+                "System.Runtime": { "type": "build" }
+            },
+            "imports": ""
+        },
+        ".NETFramework, Version=v4.6.1 ": {
+            "frameworkAssemblies": {
+                "System.Runtime": { "type": "build" }
+            }
+        },
+        ".NETPlatform, Version=v5.4": {
+            "compilationOptions": {
+                "define": [ "CORECLR" ]
+            },
+            "frameworkAssemblies": {
+            },
+            "dependencies": {
+                "Microsoft.CSharp": "4.0.1-*",
+                "System.Collections": "4.0.11-*",
+                "System.Collections.Concurrent": "4.0.11-*",
+                "System.Diagnostics.Contracts": "4.0.1-*",
+                "System.Linq": "4.0.1-*",
+                "System.Runtime": "4.0.21-*",
+                "System.Threading": "4.0.11-*"
+            }
+        }
+    },
+    "resource": [
+    ],
+    "runtimes": {
+        "win": { }
+    },
+    "version": "1.0.0-*"
+}
